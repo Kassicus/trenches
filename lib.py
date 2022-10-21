@@ -3,8 +3,8 @@ import pygame
 import random
 
 # Constants
-SCREEN_WIDTH = 1200
-SCREEN_HEIGHT = 720
+SCREEN_WIDTH = 1500
+SCREEN_HEIGHT = 1000
 
 WINDOW_TITLE = "Trenches"
 

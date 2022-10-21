@@ -3,7 +3,7 @@ import pygame
 
 # Custom imports
 import lib
-import soldier
+import level
 
 pygame.init()
 
@@ -18,7 +18,7 @@ class Game():
         self.clock = pygame.time.Clock()
         self.events = pygame.event.get()
 
-        soldier.create_soliders(1)
+        self.level = level.Level()
 
     def run(self):
         while self.running:
@@ -35,10 +35,10 @@ class Game():
     def draw(self):
         self.screen.fill(lib.color.BLACK)
 
-        soldier.draw_soldiers(self.screen)
+        self.level.draw()        
 
     def update(self):
-        soldier.update_soldiers()
+        self.level.update()
 
         pygame.display.update()
         lib.delta_time = self.clock.tick() / 1000
