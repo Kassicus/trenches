@@ -11,7 +11,7 @@ A (maybe futuristic) replica of the flash game [Warfare 1917](https://www.crazyg
 **Closed Loop / Minimum Viable Product** (Febuary 27 - March 13)
 
 TODO:
-- [ ] Game window
+- [x] Game window
 - [ ] Basic trenches
     - [ ] Trench commands for units
 - [ ] Basic units
